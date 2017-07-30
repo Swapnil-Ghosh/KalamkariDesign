@@ -284,18 +284,16 @@ body {
   line-height: 1.65714286em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+  font-family: "adobe-garamond-pro",serif;;
   color: #565656;
   font-weight: 400; }
 
 h1,
-h2,
 h3,
 h4,
 h5,
 h6,
 .h1,
-.h2,
 .h3,
 .h4,
 .h5,
@@ -321,6 +319,7 @@ h6,
 
 h1,
 .h1 {
+  font-family: "fatfrank",sans-serif;
   font-size: 3.14285714em;
   line-height: 1.31818182em; }
   h1:not(:last-child),
@@ -329,6 +328,11 @@ h1,
 
 h2,
 .h2 {
+  font-family: "fatfrank",sans-serif;	
+  color: #a60000;
+  margin: 0;
+  font-weight: 400;
+  letter-spacing: 1px;
   font-size: 2.35714286em;
   line-height: 1.36363636em;
   font-weight: 600; }
@@ -1221,10 +1225,10 @@ Main Menu
         margin-left: 6px; }
         #mainMenu nav > ul > li > a {
           position: relative;
-          font-family: "Raleway", "Helvetica", "Arial", sans-serif;
+          font-family: "din-condensed",sans-serif;
           padding: 11px 14px;
-          font-size: 12px;
-          font-weight: 700;
+          font-size: 16px;
+          font-weight: 500;
           letter-spacing: 1px;
           color: #a60000;
           text-transform: uppercase;
@@ -1877,7 +1881,7 @@ Page Menu
     color: #565656;
     font-size: 18px; }
     .page-menu .menu-title span {
-      font-weight: 600; }
+      font-weight: 400; }
   .page-menu nav {
     float: right; }
     .page-menu nav ul {
@@ -1895,6 +1899,7 @@ Page Menu
         display: block;
         position: relative;
         padding: 8px 10px;
+		font-family: "din-condensed",sans-serif;
         font-size: 13px;
         line-height: 12px;
         color: #565656;
@@ -6147,10 +6152,10 @@ span.rec-by {
   .heading > h1,
   .heading > h2 {
     font-size: 40px;
-    font-family: "Nunito", "Helvetica", "Arial", sans-serif;
+    font-family: "din-condensed",sans-serif;;
     text-transform: capitalize;
     line-height: 46px;
-    font-weight: 300; }
+    font-weight: 400; }
   .heading > h1,
   .heading > h2,
   .heading > h4,
@@ -12179,7 +12184,7 @@ body.device-xxs .text-medium-light {
   opacity: 0.8; }
 
 .background-overlay:before {
-  background: url("../images/overlay-pattern/overlay-pattern-1.png");
+  background: url("../images/about-us-banner.jpg");
   position: absolute;
   top: 0;
   right: 0;
